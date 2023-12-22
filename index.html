@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Etch a sketch</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script src="test.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body> 
-    <h1>Etch-a-Sketch</h1>
+<body onload="boxes()"> 
+   <h1>Etch-a-Sketch</h1>
+  <div class="window">
+   <div class="btn">
+   <button class="btnReset">Reset</button>
+   <button class="btnBlack">Black</button>
+   <button class="btnRainbow">Rainbow</button>
+   <button class="btnGrid">Change Grid</button>
+</div>
     <div id="container"></div>
+</div>
 </body>
 </html>
