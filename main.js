@@ -5,6 +5,7 @@ let btnRainbow = document.querySelector(".btnRainbow");
 let btnGrid = document.querySelector(".btnGrid");
 let width = container.clientWidth;
 let height = container.clientHeight;
+
 let box = prompt("How big do you want to grid to be?");
 let number = parseInt(box);
 
